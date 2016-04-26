@@ -1,0 +1,388 @@
+accepted
+accomplished
+aggravated
+alone
+amused
+angry
+annoyed
+anxious
+apathetic
+apologetic
+ashamed
+awake
+bewildered
+bitchy
+bittersweet
+blah
+blank
+blissful
+bored
+bouncy
+brooding
+calm
+cautious
+chaotic
+cheerful
+chilled
+chipper
+cold
+complacent
+confused
+content
+cranky
+crappy
+crazy
+crushed
+curious
+cynical
+dark
+defensive
+delusional
+demented
+depressed
+determined
+devious
+dirty
+disappointed
+discontent
+ditzy
+dorky
+drained
+drunk
+ecstatic
+energetic
+enraged
+enthralled
+envious
+exanimate
+excited
+exhausted
+fearful
+flirty
+forgetful
+frustrated
+full
+geeky
+giddy
+giggly
+gloomy
+good
+grateful
+groggy
+grumpy
+guilty
+happy
+heartbroken
+high
+hopeful
+hot
+hungry
+hyper
+impressed
+indescribable
+indifferent
+infuriated
+irate
+irritated
+jealous
+joyful
+jubilant
+lazy
+lethargic
+listless
+lonely
+loved
+mad
+melancholy
+mellow
+mischievous
+moody
+morose
+naughty
+nerdy
+numb
+okay
+optimistic
+peaceful
+pessimistic
+pissed off
+pleased
+predatory
+quixotic
+rapturous
+recumbent
+refreshed
+rejected
+rejuvenated
+relaxed
+relieved
+restless
+rushed
+sad
+satisfied
+shocked
+sick
+silly
+sleepy
+smart
+stressed
+surprised
+sympathetic
+thankful
+tired
+touched
+uncomfortable
+weird
+00s
+20s
+30s
+40s
+50s
+60s
+70s
+80s
+90s
+acoustic
+african
+afternoon
+alternative
+ambient
+american
+americana
+angsty
+asian
+at home
+atmospheric
+autumn
+avant garde
+background music
+badass
+ballads
+bass
+bbq
+beach
+beautiful
+bike
+billboard
+birthday
+bluegrass
+blues
+booty
+boy band
+brass
+brazilian
+breaking up
+british
+california
+calm
+canada
+cardio
+casual
+celebratory
+children
+chill
+chillstep
+christian
+christmas music
+classic country
+classic rock
+classic
+classical
+classy
+coachella
+cocktail party
+coding
+coffee shop
+cold
+college
+comedy
+contemporary
+cooking
+cool down
+country
+covers
+cozy
+crying
+cuban
+dance party
+dance pop
+dancehall
+dark
+deep
+dinner
+dirty
+disco
+disney
+dive bar
+downtempo
+dream
+driving
+drunk
+dubstep
+easy listening
+electronic
+electronica
+emo
+energetic
+epic
+evening
+feel free
+feel good
+female artist
+festival
+film scores
+focus
+folk
+french
+friday
+fuck you
+fun
+funk
+funky
+gaming
+garage
+getting ready
+girly
+good mood
+good vibes
+gospel
+greatest hits
+grooves
+guilty pleasure
+guitar
+gym
+hanging with friends
+happy
+hard rock
+hardcore
+hawaiian
+heavy metal
+high
+hip hop
+hippie
+hipster
+holiday
+house music
+house party
+housework
+indie folk
+indie pop
+indie rock
+indie
+inspiration
+instrumental
+introspective
+island
+jam band
+jamaican
+jazz
+karaoke
+ladies
+late night
+latin jazz
+latin
+lazy
+live
+loud
+lounging
+love songs
+lush
+mainstream
+making out
+male artist
+math rock
+meditation
+mellow
+metal
+modern rock
+morning
+motivational
+motown
+nature sounds
+new years
+nightclub
+old school rap
+old school
+oldies
+party
+piano
+picnic
+pitchfork
+pool party
+pop punk
+pop rock
+pop
+porch
+post rock
+power pop
+pregame
+pretty
+prog rock
+pump up
+punk
+quiet
+r&b
+radio
+rainy day
+rap
+raw
+reading
+reggae
+reggaeton
+relax
+remixes
+road trip
+rock and roll
+rock
+rockabilly
+romantic
+run
+sad
+salsa
+samba
+sertanejo
+sexual
+shoegazer
+shower
+showtunes
+singalong
+singer songwriter
+singles
+ska
+skateboarding
+sleeping
+slow jams
+smooth
+soothing
+soul
+soundtrack
+space
+spring
+summer
+sunday afternoon
+sunshine
+surf
+sweaty
+sweet
+swing
+techno
+trance
+trippy
+tropical
+trumpet
+underground
+valentine
+violin
+vocal
+walking
+warm
+wedding
+weekend
+weird
+winter
+working
+world music
+worship
+yoga
+jog
+work out
