@@ -20,7 +20,7 @@ def refresh_token():
 db = pymysql.connect("localhost","spotify","","myrunningsongs",charset="utf8mb4",cursorclass=pymysql.cursors.DictCursor)
 c = db.cursor()
 
-c.execute("""SELECT user,id from playlists left join tracks on playlists.id=playlist WHERE playlist is null and description is null order by id desc""")
+c.execute("""SELECT user,id from playlists left join tracks on playlists.id=playlist WHERE track_num=100 and playlist NOT IN (select playlist from tracks where track_num=101)""")
 
 ### api token
 token_clock = time.time()
@@ -30,15 +30,16 @@ token = refresh_token()
 ### api call
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
 values = {'limit' : '100',
-          'offset':0}
+          'offset': '100'}
 headers = { 'User-Agent' : user_agent ,'Authorization':'Bearer '+token, 'Accept': 'application/json'}
 
+k = 0
 
 for playlist in c.fetchall():
 	url = 'https://api.spotify.com/v1/users/%s/playlists/%s'%(playlist['user'],playlist['id'])
 	# next = True
 	# values['offset'] = 0
-	tnum = 1
+	tnum = 101
 
 	try:
 		r = requests.get(url, params=values, headers=headers)
@@ -53,12 +54,13 @@ for playlist in c.fetchall():
 		else:
 			c.execute("""UPDATE playlists SET description=%s where id=%s""",(results['description'],playlist['id']))
 		db.commit()
-		print playlist['user'],playlist['id'],results['tracks']['total']
+		print k,playlist['user'],playlist['id'],results['tracks']['total']
+		k += 1
 		pass
 	except:
 		print '*'*30
 		print url
-		print r.text
+		# print r.text
 		print '*'*30
 	if (time.time() - token_clock) > 3595:
 		token_clock = time.time()

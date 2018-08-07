@@ -39,7 +39,15 @@ headers = { 'User-Agent' : user_agent ,'Authorization':'Bearer '+token}
 f = open('search_terms.txt','rb')
 terms = [word.strip() for word in f.readlines()]
 
-# terms = [letter for letter in 'ghijklmnopqrstuvwxyz']
+# terms = [letter for letter in '1234567890']
+# terms = [letter for letter in '567890']
+
+terms = ['dinner','party','dance','dance party','sleep','relax','focus','chill','hangout','hang out','cooking','feel good','bbq','pre game','pre-game','late night','late-night','workout','work out','warm up','warmup','warm-up','gym','cardio']
+# terms = ['chill']
+# 'sleep' 20100
+# chill 30400
+
+# terms = ['labor day','memorial day','july 4th','barbecue','barbeque','grill']
 
 for word in terms:
 	next = True
@@ -62,7 +70,7 @@ for word in terms:
 			token = refresh_token()
 			headers['Authorization'] = 'Bearer '+token
 		print values['q'],values['offset'],results['playlists']['total']
-		time.sleep(.5)
+		# time.sleep(.1)
 		next = results['playlists']['next']
 		values['offset'] += 50
 		
